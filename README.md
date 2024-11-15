@@ -56,8 +56,5 @@ In an event-driven architecture, operations are often asynchronous. An object su
 In an aggregate, it is mandatory to have a **no-argument constructor**. This is essential for deserialization when events are replayed from the event store.
 
 ### Axon server
-If the Axon server doesn’t work, please run it using Docker with the following command:
-```
-docker run --name axonserver -p 8024:8024 -p 8124:8124 -v "/c/Users/allak/Downloads/AxonServer/docker-data/data":/data -v "/c/Users/allak/Downloads/AxonServer/docker-data/eventdata":/eventdata -v "/c/Users/allak/Downloads/AxonServer/docker-data/config":/config axoniq/axonserver
-```
+You can download it in your project. If you're using IntelliJ you can go to project structure -> modules then in the search barre tap axon sever and then click on download.
 
